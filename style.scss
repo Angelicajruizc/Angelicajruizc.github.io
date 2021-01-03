@@ -291,7 +291,185 @@ main .episodios {
       height: 28px;}}}
    
 /* Responsive design */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .main-container {
+    max-width: 1400px;
+    width: 100%;
+    height: 3915px;}
+  
+  h1 {
+    font-size: 64px;
+    line-height: 84px;}
+  h2, h3 {
+    font-size: 48px;
+    line-height: 62px;}
+  h4 {
+    font-size: 24px;
+    line-height: 32px;}
+  p {
+    font-size: 16px;
+    line-height: 24px;}
+  
+  header .encabezado {
+    width: 100%;
+    height: 449px;
+  
+  .menu-barra {
+    width: 100%;
+    height: 80px;
+    align-content: flex-start;
+    
+    #logobd {
+      width: 36px; height: 36px;
+      margin: 22px 0px 22px 100px;}
+  
+      .menu-h label {
+        display: none;}
+        
+        #links-menu  {
+          width: 482px;
+          height: 28px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          position: absolute; top: 13px;
+          margin: 0px 100px 0px 0px;
+          padding: 0px;
+          background-color: white;}}}
+  
+  #links-menu li a {
+    font-size: 16px;
+    line-height: 28px;
+    margin: auto; padding: 0px;
+    font-family: 'IBM Plex Mono', monospace, sans-serif;
+    color: #060A24;
+    &:hover {
+      color: #00F3BB;
+      font-family: 'IBM Plex Mono-Medium', monospace, sans-serif;
+      text-decoration: line-through;}
+    &:active {
+      color:rgba(6,10,36,0.56);
+      text-decoration: line-through;}}
+  
+  .encabezado h1 { 
+    margin: 120px 200px 0px 200px;}
+  
+      #punto {
+        color: #0000EC;}
+  
+      p {
+        margin: 0px 612px 56px 200px;}
+  
+      button {
+        width: 226px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0px 1014px 5px 200px;}
+  
+  main .episodios {
+    height: 1042.6px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 100px 232.6px 100px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0 100%);
+  
+      h2 {
+        margin: 186px 930px 26px 100px;}
+  
+      > iframe {
+        width: 550px;
+        height: 245px;
+        margin: 10px;
+        }}
+  
+  main .img_phone {
+    width: 457.6px;
+    height: 660px;
+    position: absolute; top: 1323px; left: 200px;
+    background-position: center center;}
+  
+  main .origen {
+    width: 464px;
+    height: 300px;
+    position: absolute; top: 1512px; left: 720px;
+      h3 {
+        margin: 0px;
+        padding: 0px;}
+      p {
+        margin: 0px;}}
+  
+  main .invitados {
+    width: 100%;
+    position: absolute; top: 2047px;
+    flex-flow: row wrap;
+      >img {
+        width: 450px;
+        height: 360px;}
+      h3 {
+        margin: 0px 0px 36px 200px;}}
+  
+  main .temas {
+    width: 100%;
+    height: 426px;
+    position: absolute; top: 2840px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+  
+    h3 {
+      display: block;
+      padding:  64px 500px 56px 200px;}
+  
+    .box {
+      height: 210px;
+      width: 260px;}
+  
+    .box.box4  {
+      width: 220px;
+      height: 240px;
+      }
+    .box.box2 {
+        height: 240px;}}
+  
+  main .novedades {
+    width: 100%;
+    height: 518px;
+    position: absolute; top: 3299px;
+    justify-content: center;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+  
+    button {
+      width: 345px;
+      height: 56px;
+      background-color: #00F3BB;
+      border: none;
+      margin: 0px;
+      font-family: 'IBM Plex Mono-Medium', monospace, sans-serif;
+      color: #060A24;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 24px;}}
+  
+  footer .redes {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: absolute; top: 3817px;
+    p {
+      margin: 36px 0px 31px 100px;}
+  
+    .logos {
+      margin: 36px 100px 31px 0;
+        >img {
+          width: 18px;}
+  }}}
+  
+@media screen and (min-width: 1440px) {
 .main-container {
   max-width: 1440px;
   width: 100%;
@@ -415,7 +593,7 @@ main .invitados {
 main .temas {
   width: 100%;
   height: 426px;
-  position: absolute; top: 2873px;
+  position: absolute; top: 2840px;
   flex-flow: row wrap;
   justify-content: center;
   align-items: baseline;
