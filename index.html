@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Fontawesome/">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mi Podcast</title>
+</head>
+
+<body>
+  <div class="main-container"> <!--Contenedor principal-->    
+    <header><!--El encabezado contiene el logo, menú desplegable, título y párrafo-->
+      <div class="encabezado">
+        <div class="menu-barra">
+          <img id="logobd" src="/IMAGENES/logo.svg" alt="logo">  
+            <nav class="menu-h"> <!--Inicio del menu hamburguesa-->
+              <input type="checkbox" id="desplegable"/>
+                <ul id="links-menu">
+                  <li><a href="#Episodios">EPISODIOS</a></li>
+                  <li><a href="#Nosotros">NOSOTROS</a></li>
+                  <li><a href="#Entrevistas">ENTREVISTAS</a></li>
+                  <li><a href="#Topicos">TÓPICOS</a></li>
+                </ul>
+                <label for="desplegable">
+                  <span class="linea-menu"></span>
+                  <span class="linea-menu"></span>
+                  <span class="linea-menu"></span>
+                </label>
+            </nav> <!--Fin del menu hamburguesa-->
+        </div> 
+          <h1>Hello <span style="text-decoration: line-through;">world</span> pale blue dot<span id="punto">.</span></h1>
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+              <button name="conoce_mas" type="button">CONOCÉ MÁS</button>
+      </div>
+    </header>
+  <!--Aqui finaliza el encabezado-->
+
+    <main><!--Inicio del contenido principal--> 
+      <!--Iframes de los episodios-->
+      <div class="episodios" id="Episodios">
+        <h2>Episodios</h2>
+          <iframe src="https://open.spotify.com/embed-podcast/episode/4shXFuvZEkD9QWPGHuUWYq" allow="encrypted-media" style="border: none;"></iframe>
+          <iframe src="https://open.spotify.com/embed-podcast/episode/1api6iJN7jqyRZ5nvkgicD" allow="encrypted-media" style="border: none;"></iframe>
+          <iframe src="https://open.spotify.com/embed-podcast/episode/6MaPHcAzPVndfnZHJwXoeM" allow="encrypted-media" style="border: none;"></iframe>
+          <iframe src="https://open.spotify.com/embed-podcast/episode/32EXJ7HVpF50fbqE4TKscW" allow="encrypted-media" style="border: none;"></iframe>
+      </div>
+        <!--Imagen de telefóno superpuesta-->
+      <div class="img_phone"></div>
+        <!--Seccion nosotros-->
+      <div class="origen" id="Nosotros">
+        <h3>De dónde venimos</h3>
+          <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br><br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+      </div>
+        <!--Sección entrevistas-->
+      <div class="invitados" id="Entrevistas">
+        <h3>Invitadas/os estelares</h3>
+          <img src="/IMAGENES/grace-hopper.png" alt="Grace Hopper">
+          <img src="/IMAGENES/Katie-Bouman.png" alt="Katie Bouman">
+          <img src="/IMAGENES/Margaret_Hamilton.png" alt="Margaret Hamilton">
+          <img src="/IMAGENES/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="Univac">
+          <img src="/IMAGENES/Computer-operators-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.png" alt="Computer operators">
+          <img src="/IMAGENES/susan-kare.png" alt="Susan Kare"> 
+      </div>
+        <!--Sección tópicos-->
+      <div class="temas" id="Topicos">
+        <h3>Algunos de nuestros temas</h3>
+          <div class="box box1">
+            <img src="/IMAGENES/icon1.svg" alt="Trabajo remoto">
+            <h4>Trabajo remoto</h4>
+          </div>
+          <div class="box box2">
+            <img src="/IMAGENES/icon2.svg" alt="Repensando la programación">
+            <h4>Repensando la programación</h4>
+          </div>
+          <div class="box box3">
+            <img src="/IMAGENES/icon3.svg" alt="Bases del código">
+            <h4>Bases del código</h4>
+          </div>
+          <div class="box box4">
+            <img src="/IMAGENES/icon4.svg" alt="Seguridad informática">
+            <h4>Seguridad informática</h4>
+          </div>
+      </div>
+        <!--Sección novedades-->
+      <div class="novedades">
+        <h2>¿Querés las últimas novedades?</h2>
+        <button name="otros_episodios" type="button">ESCUCHÁ MÁS EPISODIOS</button>
+      </div>
+    </main> <!--Aquí finaliza el contenido principal-->
+  
+    <!--Pie de página-->
+    <footer >
+      <div class="redes">
+        <p>© 2019— Hello blue pale dot</p>
+          <div class="logos"> 
+            <img src="/Fontawesome/spotify-brands.svg" alt="Spotify">
+            <img src="/Fontawesome/instagram-brands.svg" alt=" Instagram">
+            <img src="/Fontawesome/twitter-brands.svg" alt="Twitter">
+            <img src="/Fontawesome/facebook-brands.svg" alt="Facebook">
+            <img src="/Fontawesome/telegram-brands.svg" alt="Telegram">
+          </div>
+      </div>    
+    </footer>
+  </div> 
+ </body>
+</html>
