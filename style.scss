@@ -403,8 +403,8 @@ main .episodios {
       font-size: 60px;
       line-height: 84px;}
     h2, h3 {
-      font-size: 48px;
-      line-height: 62px;}}
+      font-size: 45px;
+      line-height: 60px;}}
     
   header .encabezado {
     width: 100%;
@@ -523,7 +523,36 @@ main .episodios {
     position: absolute; left: 600px;}
 
   main .invitados {
-    justify-content: center;}}
+    justify-content: center;}
+  
+  main .temas {
+    height: 400px;
+    justify-content: center;
+       
+    .box {
+      height: 200px;
+      width: 250px;
+      align-self: baseline;}}
+  
+  main .novedades {
+    width: 100%;
+    height: 458px;
+    position: absolute; top: 2800px;
+    justify-content: center;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+  
+    button {
+      width: 345px;
+      height: 56px;
+      background-color: #00F3BB;
+      border: none;
+      margin: 0px;
+      font-family: 'IBM Plex Mono-Medium', monospace, sans-serif;
+      color: #060A24;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 24px;}}}
 
 @media screen and (min-width: 1400px) {
   .main-container {
@@ -531,7 +560,10 @@ main .episodios {
     width: 100%;
     height: 3915px;
   
-    h1 {font-size: 64px;}}
+    h1 {font-size: 64px;}
+    h2, h3 {
+      font-size: 48px;
+      line-height: 62px;}}
   
   header .encabezado { 
     h1 {      
@@ -590,7 +622,7 @@ main .episodios {
   main .temas {
     width: 100%;
     height: 426px;
-    position: absolute; top: 2840px;
+    position: absolute; top: 2865px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: baseline;
@@ -609,27 +641,12 @@ main .episodios {
       }
     .box.box2 {
         height: 240px;}}
-  
+
   main .novedades {
     width: 100%;
     height: 518px;
-    position: absolute; top: 3299px;
-    justify-content: center;
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
-  
-    button {
-      width: 345px;
-      height: 56px;
-      background-color: #00F3BB;
-      border: none;
-      margin: 0px;
-      font-family: 'IBM Plex Mono-Medium', monospace, sans-serif;
-      color: #060A24;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 24px;}}
-  
+    position: absolute; top: 3299px;}
+    
   footer .redes {
     width: 100%;
     height: 95px;
