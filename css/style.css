@@ -432,7 +432,7 @@ main .episodios > iframe {
           justify-content: space-between;
 }
 
-.redes .logos #spotify, .redes .logos #instagram, .redes .logos #facebook, .redes .logos #twitter, .redes .logos #telegram {
+.redes .logos > .fab {
   width: 16px;
   height: 28px;
 }
@@ -931,7 +931,7 @@ h1 {
   footer .redes .logos {
     margin: 36px 100px 31px 0;
   }
-  footer .redes .logos > img {
+  footer .redes .logos > .fab {
     width: 18px;
   }
 }

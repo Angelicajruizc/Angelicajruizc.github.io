@@ -294,7 +294,7 @@ main .episodios {
     display: flex;
     justify-content: space-between;
 
-    #spotify, #instagram, #facebook, #twitter, #telegram {
+    > .fab {
       width: 16px;
       height: 28px;}}}
    
@@ -659,5 +659,6 @@ main .episodios {
   
     .logos {
       margin: 36px 100px 31px 0;
-        >img {
+      
+      > .fab {
           width: 18px;}}}}
